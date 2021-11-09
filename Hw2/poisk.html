@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Поиск квартиры</title>
+  </head>
+  <body>
+    <form action="#" method="post" enctype="multipart/form-data">
+      <div>
+        <label for="location">Введите район</label>
+        <input id="location" type="text" name="location" placeholder="Район">
+      </div>
+      <div>
+        <label for="number">Введите кол-во комнат</label>
+        <select class="number" name="number">
+          <option value="one">1</option>
+          <option value="two">2</option>
+          <option value="three">3</option>
+          <option value="four">4</option>
+          <option value="five">5</option>
+        </select>
+      </div>
+      <div>
+        <fieldset>
+          <legend>Год сдачи дома</legend>
+          <p>От <input type="number" name="for"></p>
+          <p>До <input type="number" name="to"></p>
+        </fieldset>
+      </div>
+      <div>
+        <label for="cost">Укажите максимальную стоимость</label>
+        <input id="cost" type="number" name="cost">
+      </div>
+      <div>
+        <label for="metrag">Укажите максимальную площадь</label>
+        <input id="metrag" type="number" name="metrag" min="30" max="200" step="1">
+      </div>
+      <div>
+        <select class="text" name="otdelka">
+          <option value="otdelka">С отделкой</option>
+          <option value="nootdelka">Хочу сделать ремонт сам</option>
+        </select>
+      </div>
+      <div>
+        <label for="balkon">Хотите ли вы квартиру с балконом?</label>
+        <select class="text" name="balkon">
+          <option value="yes">Да</option>
+          <option value="no">Нет</option>
+        </select>
+      </div>
+      <div>
+        <p>Предпочтительный класс вашего жилья</p>
+     	  <label>Бизнес-класс
+          <input type="checkbox" name="additional[]" value="buisnes">
+        </label>
+        <label>Премиум класс
+          <input type="checkbox" name="additional[]" value="premium">
+        </label>
+        <label>Deluxe super VIP
+          <input type="checkbox" name="additional[]" value="vip">
+        </label>
+      </div>
+      <div>
+        <fieldset>
+          <legend><p>Выберите предпочитаемый этаж</p></legend>
+          <p>От <input type="number" name="for"></p>
+          <p>До <input type="number" name="to"></p>
+          <label>Не первый
+            <input type="checkbox" name="additional[]" value="perviy">
+          </label>
+          <label>Не последний
+            <input type="checkbox" name="additional[]" value="posl">
+          </label>
+        </fieldset>
+      </div>
+      <a href="main.html">Отправить запрос</a>
+  </body>
+</html>

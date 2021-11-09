@@ -1,0 +1,93 @@
+body{
+	background-image: url(../img1/football.jpg);
+	margin: 0;
+	background-attachment: fixed;
+}
+
+#menu{
+	padding: 0;
+	margin: 0;
+	width: 100%;
+	background: orange;
+	word-spacing: 10px;
+}
+
+#menu li{
+	display: inline-block;
+	list-style-type: none;
+  text-align: center;
+}
+
+#menu a{
+	display: block;
+	color: red;
+	text-decoration: none;
+	padding: 15px;
+	border-bottom: 5px solid transparent;
+}
+
+#menu a:hover{
+	border-bottom: 5px solid red;
+}
+
+#menu ul{
+	display: none;
+}
+
+a{
+	text-decoration: none;
+	color: red;
+}
+
+h1{
+	text-align: center;
+  color: black;
+}
+
+.pic{
+	display: block;
+	margin: auto;
+	height: 40%;
+	width: 40%;
+}
+
+aside{
+	color: white;
+	display: block;
+	margin: auto;
+	height: 40%;
+	width: 40%;
+}
+
+.video{
+	padding: 10px;
+	background-color: orange;
+	border-radius: 5px;
+	text-decoration: none;
+	color: red;
+	display: block;
+	margin: auto;
+	height: 40%;
+	width: 40%;
+	text-align: center;
+}
+
+.number{
+	margin: 40px auto;
+	width: 25%;
+}
+
+.number a{
+	display: inline-block;
+	width: 35px;
+	line-height: 35px;
+	text-decoration: none;
+	color: red;
+	text-align: center;
+	border: 2px solid red;
+	border-radius: 5px;
+}
+
+.two{
+	background-color: orange;
+}
