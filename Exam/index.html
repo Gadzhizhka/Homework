@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <title>Premium</title>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="css\index.css">
+  <link rel="icon" href="img\icon.jpg" type="image/x-icon">
+</head>
+<body>
+  <main>
+    <div class="nav" id="menu">
+      <img src="img/icon.jpg" height="65" width="65">
+      <a href="#">О нас</a>
+      <a href="avtodilery.html">Автодилеры</a>
+      <a href="avtomobile.html">Автомобили</a>
+      <a href="#">Контакты</a>
+    </div>
+    <p>
+      Центр подбора авто "Premium" был создан в 2020г. в Санкт-Петербурге. Основныи направлением
+      деятельности компании является подбор автомобилей "Премиум класса". Компания предлагает услуги
+      подбора автомобилей у зарубежных автодилеров, так же мы даем гарантию, что автомобиль поступит
+      к вам на руки с очень хорошей скидкой.
+    </p>
+    <p>Компании автодилеров, с которыми сотрудничаем:</p>
+    <ul>
+      <li>BMW</li>
+      <li>Mercedes-Benz</li>
+      <li>Audi</li>
+    </ul>
+    <form action="#" method="post">
+      <h2>Запрос на оказание услуги</h2>
+      <div>
+        <label for="name">Имя</label>
+        <input name="name" id="name">
+      </div>
+      <div>
+        <label for="surname">Фамилия</label>
+        <input name="surname" id="surname">
+      </div>
+      <div>
+        <label for="type">Выберите кузов автомобиля</label>
+        <select id="type" name="type">
+          <option value="sedan">Седан</option>
+          <option value="kupe">Купе</option>
+          <option value="khetchbek">Xэтчбек</option>
+          <option value="vnedorozhnik">Внедорожник</option>
+          <option value="liftbek">Лифтбек</option>
+          <option value="universal">Универсал</option>
+        </select>
+      </div>
+      <div>
+        <label for="type">Выберите марку автомобиля</label>
+        <select id="country" name="country">
+          <option value="bmw">BMW</option>
+          <option value="mercedes">Mercedes-Benz</option>
+          <option value="audi">Audi</option>
+        </select>
+      </div>
+      <div>
+        <label for="telefon">Введите ваш номер телефона</label>
+        <input id="telefon"
+              type="telefon"
+              placeholder="номер телефона"
+              required
+              name="telefon">
+      </div>
+      <div>
+        <input type="submit" value="Отправить">
+      </div>
+    </form>
+    <section class="bottom">
+      <a href="#"><img src="img\bmw.jpg"></a>
+      <a href="#"><img src="img\mercedes.jpg"></a>
+      <a href="#"><img src="img\audi.jpg"></a>
+    </section>
+  </main>
+</body>
+<footer>
+  <p id="contact">Связаться с нами <i class="fab fa-whatsapp"></i></p>
+  <p>т. 8 (800) 555-35-35</p>
+</footer>
+</html>

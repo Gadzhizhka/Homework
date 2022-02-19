@@ -1,0 +1,24 @@
+html {
+  font-size: 20px;
+  background: #BDBDBD;
+}
+
+#countries {
+  text-align: center;
+  color: black;
+  font-size: 50px;
+  position: relative;
+  margin-bottom: 5%;
+}
+
+.flex-row {
+  display: flex;
+  text-align: center;
+  margin: 20px;
+  justify-content: center;
+  color: black;
+}
+
+.flex-row p {
+  padding: 10px;
+}
